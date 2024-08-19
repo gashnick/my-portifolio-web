@@ -1,4 +1,5 @@
 import { FaFacebook, FaTwitter, FaLinkedin } from "react-icons/fa";
+import image from "../assets/image.jpg";
 import React from "react";
 
 export default function Header() {
@@ -11,7 +12,7 @@ export default function Header() {
             <span className="text-black">Nicolas</span>
           </h1>
           <div className="hidden md:block">
-            <ul className="flex items-center gap-6 text-sm">
+            <ul className="flex items-center gap-6 text-sm font-bold">
               <li>
                 <a className="transition hover:text-red-400/75" href="#">
                   Home
@@ -19,60 +20,68 @@ export default function Header() {
               </li>
               <li>
                 <a className="transition hover:text-red-400/75" href="#">
-                  Home
+                  About
                 </a>
               </li>
               <li>
                 <a className="transition hover:text-red-400/75" href="#">
-                  Home
+                  Services
                 </a>
               </li>
               <li>
                 <a className="transition hover:text-red-400/75" href="#">
-                  Home
+                  Blog
                 </a>
               </li>
               <li>
                 <a className="transition hover:text-red-400/75" href="#">
-                  Home
+                  Center
                 </a>
               </li>
             </ul>
           </div>
           <div className="flex items-center gap-4">
             <div className="sm:flex sm:gap-4">
-              <a className="rounded-md bg-white px-5 py-2.5 text-sm font-medium text-black">
+              <a className="rounded-md bg-white px-5 py-2.5 text-sm font-medium text-black cursor-pointer">
                 Download CV
               </a>
             </div>
           </div>
         </div>
       </div>
-      <div className="relative flex flex-wrap lg:h-screen lg:items-center">
-        <div className="w-full px-4 py-12 sm:px-6 sm:py-16 lg:w-1/2 lg:px-8 lg:py-24">
-          <div className="flex space-x-8 items-start">
-            <div className="flex flex-col space-y-4 mr-16">
-              <FaFacebook className="text-red-500 w-6 h-6 hover:bg-white hover:cursor-pointer" />
-              <FaTwitter className="text-red-600 w-6 h-6 hover:bg-white hover:cursor-pointer active:bg-white" />
-              <FaLinkedin className="text-red-600 w-6 h-6 hover:bg-white hover:cursor-pointer" />
+      <section>
+        <div className="mx-auto max-w-screen-xl px-4 py-8 sm:px-6 sm:py-12 lg:px-8 lg:py-16">
+          <div className="grid grid-cols-1 gap-8 lg:grid-cols-2 lg:gap-16">
+            <div className="relative h-64 overflow-hidden rounded-lg sm:h-80 lg:order-last lg:h-full">
+              <img
+                alt=""
+                src="https://images.unsplash.com/photo-1527529482837-4698179dc6ce?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80"
+                className="absolute inset-0 h-full w-full object-cover"
+              />
             </div>
-            <div className="mx-auto max-w-lg">
-              <h1 className="mb-9 font-bold size-15">
-                Hello, I'm <br />
-                Nicolas Gashumba An <br /> web Developer
-              </h1>
-              <p>A talented web developer with n+ years of experience</p>
-              <form className="mt-9">
-                <input
-                  type="button"
-                  value="Browse Projects"
-                  className="bg-red-500 text-white px-4 py-2 rounded"
-                />
-              </form>
+
+            <div className="lg:py-24">
+              <h2 className="text-3xl font-bold sm:text-4xl capitalize">
+                Hello, i'm <br /> Nicolas Gashumba I Am <br /> A Web Developer
+              </h2>
+
+              <p className="mt-4 text-gray-600">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut
+                qui hic atque tenetur quis eius quos ea neque sunt, accusantium
+                soluta minus veniam tempora deserunt? Molestiae eius quidem quam
+                repellat.
+              </p>
+
+              <a
+                href="#"
+                className="mt-8 inline-block rounded bg-red-500 px-12 py-3 text-sm font-medium text-white transition hover:bg-indigo-700 focus:outline-none focus:ring focus:ring-yellow-400"
+              >
+                Browse Projects
+              </a>
             </div>
           </div>
         </div>
-      </div>
+      </section>
     </header>
   );
 }
