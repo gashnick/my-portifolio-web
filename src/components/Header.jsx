@@ -60,24 +60,31 @@ export default function Header() {
               />
             </div>
 
-            <div className="lg:py-24">
-              <h2 className="text-3xl font-bold sm:text-4xl capitalize">
-                Hello, i'm <br /> Nicolas Gashumba I Am <br /> A Web Developer
-              </h2>
+            <div className="lg:py-24 flex gap-10">
+              <div className="flex flex-col gap-3 mb-6 mr-2">
+                <FaFacebook className="text-2xl text-red-500 cursor-pointer" />
+                <FaTwitter className="text-2xl text-red-500 focus:bg-white cursor-pointer active:bg-white" />
+                <FaLinkedin className="text-2xl text-red-500 cursor-pointer" />
+              </div>
+              <div>
+                <h2 className="text-3xl font-bold sm:text-4xl capitalize">
+                  Hello, i'm <br /> Nicolas Gashumba I Am <br /> A Web Developer
+                </h2>
 
-              <p className="mt-4 text-gray-600">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut
-                qui hic atque tenetur quis eius quos ea neque sunt, accusantium
-                soluta minus veniam tempora deserunt? Molestiae eius quidem quam
-                repellat.
-              </p>
+                <p className="mt-4 text-gray-600">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut
+                  qui hic atque tenetur quis eius quos ea neque sunt,
+                  accusantium soluta minus veniam tempora deserunt? Molestiae
+                  eius quidem quam repellat.
+                </p>
 
-              <a
-                href="#"
-                className="mt-8 inline-block rounded bg-red-500 px-12 py-3 text-sm font-medium text-white transition hover:bg-indigo-700 focus:outline-none focus:ring focus:ring-yellow-400"
-              >
-                Browse Projects
-              </a>
+                <a
+                  href="#"
+                  className="mt-8 inline-block rounded bg-red-500 px-12 py-3 text-sm font-medium text-white transition hover:bg-indigo-700 focus:outline-none focus:ring focus:ring-yellow-400"
+                >
+                  Browse Projects
+                </a>
+              </div>
             </div>
           </div>
         </div>
