@@ -5,66 +5,63 @@ import { RxRocket } from "react-icons/rx";
 
 export default function Services() {
   return (
-    <div className="grid grid-cols-1 gap-4 lg:grid-cols-3 lg:gap-8 mt-5">
-      <div className=" bg-gray-200 lg:ml-24 sm:mx-auto">
-        <div className="block p-8">
-          <CgWebsite className="text-purple-600 lg:text-3xl sm:text-4xl" />
-          <h2 className="mt-4 text-xl font-bold mb-3">
-            Website <br /> Development
-          </h2>
-
-          <ul className="mt-1 text-sm text-gray-300 gap-y-2">
-            <li className="flex items-center gap-x-2 capitalize mb-1">
-              <FaCheckCircle className="text-orange-500" /> one page design
+    <section>
+      <div className="flex items-center justify-center gap-4 flex-col sm:flex-row sm:gap-2">
+        <div className="bg-gray-200 mt-6 p-3">
+          <CgWebsite className="text-purple-400 text-center text-5xl p-2" />
+          <h1 className="text-3xl lg:text-4xl sm:text-2xl capitalize p-2">
+            Website <br />
+            development
+          </h1>
+          <ul>
+            <li className="flex items-center p-2 gap-1">
+              <FaCheckCircle className="text-orange-400" /> One Page Design
             </li>
-            <li className="flex items-center gap-x-2 capitalize mb-1">
-              <FaCheckCircle className="text-orange-500" /> Website UI/UX
+            <li className="flex items-center p-2 gap-1">
+              <FaCheckCircle className="text-orange-400" /> Website UI/UX
             </li>
-            <li className="flex items-center gap-x-2 capitalize">
-              <FaCheckCircle className="text-orange-500" /> Multi page design
-            </li>
-          </ul>
-        </div>
-      </div>
-      <div className=" bg-gray-200  sm:mx-auto">
-        <div className="block p-8">
-          <RxRocket className="text-purple-600 lg:text-3xl sm:text-4xl" />
-          <h2 className="mt-4 text-xl font-bold mb-3">
-            Website <br /> Development
-          </h2>
-
-          <ul className="mt-1 text-sm text-gray-300 gap-y-2">
-            <li className="flex items-center gap-x-2 capitalize mb-1">
-              <FaCheckCircle className="text-orange-500" /> one page design
-            </li>
-            <li className="flex items-center gap-x-2 capitalize mb-1">
-              <FaCheckCircle className="text-orange-500" /> Website UI/UX
-            </li>
-            <li className="flex items-center gap-x-2 capitalize">
-              <FaCheckCircle className="text-orange-500" /> Multi page design
+            <li className="flex items-center p-2 gap-1">
+              <FaCheckCircle className="text-orange-400" /> Many Page Design
             </li>
           </ul>
         </div>
+        <div className="bg-gray-200 mt-6 p-3">
+          <RxRocket className="text-purple-400 text-center text-5xl p-2" />
+          <h1 className="text-3xl lg:text-4xl sm:text-2xl capitalize p-2">
+            Website <br />
+            development
+          </h1>
+          <ul>
+            <li className="flex items-center p-2 gap-1">
+              <FaCheckCircle className="text-orange-400" /> One Page Design
+            </li>
+            <li className="flex items-center p-2 gap-1">
+              <FaCheckCircle className="text-orange-400" /> Website UI/UX
+            </li>
+            <li className="flex items-center p-2 gap-1">
+              <FaCheckCircle className="text-orange-400" /> Many Page Design
+            </li>
+          </ul>
+        </div>
+        <div className="p-6">
+          <h2 className="text-red-600 text-3xl sm:text-3xl xl:text-4xl mb-2">
+            WHAT WE OFFER
+          </h2>
+          <h3 className="text-3xl sm:text-2xl xl:text-3xl">
+            Which Services I Will <br /> Provide For You
+          </h3>
+          <p className="mt-4 text-gray-600 mb-4">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. <br /> Aut
+            qui hic atque tenetur.
+          </p>
+          <a
+            href="#"
+            className="mt-8 inline-block rounded bg-red-500 px-12 py-3 text-sm font-medium text-white transition hover:bg-indigo-700 focus:outline-none focus:ring focus:ring-yellow-400"
+          >
+            Explore All Services
+          </a>
+        </div>
       </div>
-      <div className="mx-3">
-        <h3 className="text-1xl lg:text-2xl text-red-500 uppercase mb-2">
-          What we offer
-        </h3>
-        <h2 className="text-1xl lg:text-2xl capitalize">
-          Which services i willn <br /> provide for you
-        </h2>
-        <p className="text-1xl lg:text-1xl mt-2">
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut qui hic
-          atque tenetur quis eius quos ea neque sunt, accusantium soluta minus
-          veniam tempora deserunt? Molestiae eius quidem quam repellat.
-        </p>
-        <a
-          href="#"
-          className="mt-8 inline-block rounded bg-red-500 px-12 py-3 text-sm font-medium text-white transition hover:bg-indigo-700 focus:outline-none focus:ring focus:ring-yellow-400"
-        >
-          Browse All Services
-        </a>
-      </div>
-    </div>
+    </section>
   );
 }
