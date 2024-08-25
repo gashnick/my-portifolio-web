@@ -8,7 +8,7 @@ import image6 from "../assets/image6.jpg";
 
 export default function Portifolio() {
   return (
-    <section className="justify-center text-center">
+    <section className="justify-center text-center m-auto">
       <div className="container mx-auto max-w-6xl p-4">
         <h2 className="text-3xl text-red-500 text-center font-bold">
           Portifolio works
@@ -20,7 +20,7 @@ export default function Portifolio() {
           <li className="font-bold hover:text-red-500 hover:underline hover:cursor-pointer">
             All
           </li>
-          <li className="font-bold hover:text-red-500 hover:underline hover:cursor-pointer">
+          <li className="font-bold hover:text-red-500 hover:underline hover:cursor-pointer active:text-red-500 active:underline">
             Website
           </li>
           <li className="font-bold hover:text-red-500 hover:underline hover:cursor-pointer">
@@ -30,8 +30,55 @@ export default function Portifolio() {
             Software
           </li>
         </ul>
-        <div className="md:columns-2 lg:columns-3 gap-6 p-4 sm:p-1 mt-2">
-          <div className="animate-spin duration-200"></div>
+        <div className="grid grid-cols-2 gap-6 p-4 mt-2 sm:grid-cols-3">
+          <div className="relative aspect-w-1 aspect-h-1">
+            <img
+              src={image2}
+              className="rounded-lg object-cover w-full h-full"
+            />
+            <div className="absolute inset-0 bg-gradient-to-t from-red-500 to-transparent"></div>
+            <div
+              className="absolute bottom-0 left-0 flex flex-col 
+          items-start p-4 sm:text-3xl"
+            >
+              <span className="bg-white text-red-500 font-bold text-xs sm:text-sm px-1 py-2 rounded mt-2">
+                Development
+              </span>
+              <span className="bg-white font-bold text-xs sm:text-sm px-3 py-2 rounded mt-2">
+                Officical Video Editor
+              </span>
+            </div>
+          </div>
+          <div className="aspect-w-1 aspect-h-1">
+            <img
+              src={image5}
+              className="rounded-lg object-cover w-full h-full"
+            />
+          </div>
+          <div className="aspect-w-1 aspect-h-1">
+            <img
+              src={image3}
+              className="rounded-lg object-cover w-full h-full"
+            />
+          </div>
+          <div className="aspect-w-1 aspect-h-1">
+            <img
+              src={image4}
+              className="rounded-lg object-cover w-full h-full"
+            />
+          </div>
+          <div className="aspect-w-1 aspect-h-1">
+            <img
+              src={image6}
+              className="rounded-lg object-cover w-full h-full"
+            />
+          </div>
+          <div className="aspect-w-1 aspect-h-1">
+            <img
+              src={imagelaptop}
+              className="rounded-lg object-cover w-full h-full"
+            />
+          </div>
         </div>
       </div>
     </section>
