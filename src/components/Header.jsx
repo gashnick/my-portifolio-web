@@ -63,7 +63,7 @@ export default function Header() {
             <div className="lg:py-24 flex gap-10">
               <div className="flex flex-col gap-3 mb-6 mr-2">
                 <FaFacebook className="text-2xl text-red-500 cursor-pointer" />
-                <FaTwitter className="text-2xl text-red-500 focus:bg-white cursor-pointer active:bg-white" />
+                <FaTwitter className="text-2xl text-red-500 bg-white rounded-full p-1 cursor-pointer" />
                 <FaLinkedin className="text-2xl text-red-500 cursor-pointer" />
               </div>
               <div>

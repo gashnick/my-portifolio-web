@@ -6,7 +6,7 @@ import { RxRocket } from "react-icons/rx";
 export default function Services() {
   return (
     <section>
-      <div className="flex items-center justify-center gap-4 flex-col sm:flex-row sm:gap-2">
+      <div className="grid grid-cols-1 gap-2 lg:grid-cols-3 lg:gap-2 justify-items-center items-center">
         <div className="bg-gray-200 mt-6 p-3">
           <CgWebsite className="text-purple-400 text-center text-5xl p-2" />
           <h1 className="text-3xl lg:text-4xl sm:text-2xl capitalize p-2">

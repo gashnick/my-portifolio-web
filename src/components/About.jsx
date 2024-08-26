@@ -9,13 +9,13 @@ export default function About() {
   const percentage2 = 85;
 
   return (
-    <section className="bg-pink-200">
-      <div className="flex items-center justify-center gap-4 flex-col sm:flex-row sm:gap-2">
-        <div className="flex gap-12 justify-center">
-          <div className="h-70 w-40 overflow-hidden rounded-lg sm:h-80 sm:w-52 lg:h-full lg:w-64 mt-3">
+    <section className="bg-pink-200 relative">
+      <div className="mx-auto max-w-screen-xl px-4 py-8 sm:px-6 sm:py-12 lg:px-8 lg:py-16">
+        <div className="grid grid-cols-1 gap-2 lg:grid-cols-2 lg:gap-2 justify-items-center items-center">
+          <div className="relative h-64 overflow-hidden rounded-lg sm:h-80 sm:w-52 lg:h-full lg:w-64 mt-7">
             <img
               src={image3}
-              className="h-full w-full object-cover"
+              className="absolute inset-0 h-full w-full object-cover"
               alt="Profile"
             />
           </div>

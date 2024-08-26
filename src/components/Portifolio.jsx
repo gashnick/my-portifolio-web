@@ -20,7 +20,7 @@ export default function Portifolio() {
           <li className="font-bold hover:text-red-500 hover:underline hover:cursor-pointer">
             All
           </li>
-          <li className="font-bold hover:text-red-500 hover:underline hover:cursor-pointer active:text-red-500 active:underline">
+          <li className="font-bold text-red-500 underline cursor-pointer">
             Website
           </li>
           <li className="font-bold hover:text-red-500 hover:underline hover:cursor-pointer">
