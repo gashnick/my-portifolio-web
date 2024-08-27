@@ -4,7 +4,7 @@ import React from "react";
 
 export default function Header() {
   return (
-    <header className="bg-pink-200 relative">
+    <header className="bg-pink-50 relative">
       <div className="mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8">
         <div className="flex h-16 items-center justify-between">
           <h1 className="font-bold text-sm sm:text-xl flex flex-wrap">
