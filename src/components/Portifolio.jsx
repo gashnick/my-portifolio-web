@@ -10,23 +10,19 @@ export default function Portifolio() {
   return (
     <section className="justify-center text-center m-auto">
       <div className="container mx-auto max-w-6xl p-4">
-        <h2 className="text-3xl text-red-500 text-center font-bold">
-          Portifolio works
-        </h2>
-        <p className="text-3xl font-bold text-center mb-3">
-          Recent case studies
-        </p>
+        <h2 className="uppercase text-red-500 text-center">Portifolio works</h2>
+        <h3 className="text-3xl text-center mb-3">Recent case studies</h3>
         <ul className="flex justify-center text-center p-2 gap-4">
-          <li className="font-bold hover:text-red-500 hover:underline hover:cursor-pointer">
+          <li className="text-sm font-bold hover:text-red-500 hover:underline hover:cursor-pointer">
             All
           </li>
-          <li className="font-bold text-red-500 underline cursor-pointer">
+          <li className="text-sm font-bold text-red-500 underline cursor-pointer">
             Website
           </li>
-          <li className="font-bold hover:text-red-500 hover:underline hover:cursor-pointer">
+          <li className="text-sm font-bold hover:text-red-500 hover:underline hover:cursor-pointer">
             Mobile Apps
           </li>
-          <li className="font-bold hover:text-red-500 hover:underline hover:cursor-pointer">
+          <li className="text-sm font-bold hover:text-red-500 hover:underline hover:cursor-pointer">
             Software
           </li>
         </ul>

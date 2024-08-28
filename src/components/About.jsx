@@ -10,21 +10,18 @@ export default function About() {
   const percentage2 = 85;
 
   return (
-    <section className="bg-orange-50">
+    <section className="bg-orange-50 mx-auto my-7">
       <div className="flex justify-center items-center gap-4 m-4">
         <div className="h-64 overflow-hidden rounded-lg sm:h-80 lg:w-64 lg:h-full">
           <img src={image3} className="h-full object-cover w-full" />
         </div>
         <div className="gap-7 m-4">
           <div className="gap-4 m-4">
-            <h2 className="font-bold items-center text-red-500 capitalize">
-              {" "}
-              About me
-            </h2>
-            <p className="text-3xl font-bold mb-8 uniform-font-size">
+            <h2 className="items-center text-red-500 uppercase"> About me</h2>
+            <h3 className="text-3xl capitalize mb-8">
               I can develop anything <br />{" "}
               <span className="inline-block">for your needs</span>
-            </p>
+            </h3>
           </div>
 
           <div className="flex items-center gap-4 m-4">

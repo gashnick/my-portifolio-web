@@ -5,14 +5,14 @@ import { RxRocket } from "react-icons/rx";
 
 export default function Services() {
   return (
-    <section>
+    <section className="mx-auto my-8">
       <div className="flex  justify-center gap-3 items-center m-4">
         <div className="bg-gray-200 mt-6 p-3">
           <CgWebsite className="text-purple-400 text-center text-5xl p-2" />
-          <h1 className="text-3xl lg:text-4xl sm:text-2xl capitalize p-2">
+          <h3 className="font-bold capitalize p-2">
             Website <br />
             development
-          </h1>
+          </h3>
           <ul>
             <li className="flex items-center p-2 gap-1">
               <FaCheckCircle className="text-orange-400" /> One Page Design
@@ -27,10 +27,10 @@ export default function Services() {
         </div>
         <div className="bg-gray-200 mt-6 p-3">
           <RxRocket className="text-purple-400 text-center text-5xl p-2" />
-          <h1 className="text-3xl lg:text-4xl sm:text-2xl capitalize p-2">
+          <h3 className="font-bold capitalize p-2">
             Website <br />
             development
-          </h1>
+          </h3>
           <ul>
             <li className="flex items-center p-2 gap-1">
               <FaCheckCircle className="text-orange-400" /> One Page Design
@@ -44,10 +44,8 @@ export default function Services() {
           </ul>
         </div>
         <div className="p-6">
-          <h2 className="text-red-600 text-3xl sm:text-3xl xl:text-4xl mb-2">
-            WHAT WE OFFER
-          </h2>
-          <h3 className="text-3xl sm:text-2xl xl:text-3xl">
+          <h2 className="text-red-600 mb-2">WHAT WE OFFER</h2>
+          <h3 className="text-3xl">
             Which Services I Will <br /> Provide For You
           </h3>
           <p className="mt-4 text-gray-600 mb-4">
