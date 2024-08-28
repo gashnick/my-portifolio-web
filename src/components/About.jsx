@@ -2,7 +2,6 @@ import React from "react";
 import { CircularProgressbar, buildStyles } from "react-circular-progressbar";
 import "react-circular-progressbar/dist/styles.css";
 import image3 from "../assets/image3.jpg";
-import "./style.css";
 
 export default function About() {
   const percentage = 65;
