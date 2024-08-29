@@ -8,6 +8,7 @@ import Portifolio from "./components/Portifolio";
 import Clients from "./components/Clients";
 import "./style.css";
 import Stats from "./components/Stats";
+import Qta from "./components/QTA/Qta";
 
 export default function App() {
   return (
@@ -18,6 +19,7 @@ export default function App() {
       <Portifolio />
       <Clients />
       <Stats />
+      <Qta />
       <Routes>
         <Route path="/" element={<Home />} />
       </Routes>
