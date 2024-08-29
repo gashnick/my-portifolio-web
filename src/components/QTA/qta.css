@@ -3,13 +3,51 @@
   margin: 0;
   padding: 0;
 }
-
+.content {
+  width: 90%;
+  margin: 0 auto;
+  padding: 10px 20px;
+}
 .font {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
   line-height: 24px;
 }
 .qta-image {
-  width: 300px;
-  height: 350px;
+  flex: 1;
+  margin-right: 40px;
+}
+.qta-image img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+.qta-contents {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.qta-content {
+  flex: 1;
+  gap: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  .content {
+    padding: 0px;
+  }
+  .qta-content {
+    padding: 20px;
+    flex-direction: column;
+  }
+  .qta-image {
+    margin-right: 0px;
+    margin-bottom: 20px;
+  }
+  .qta-content p {
+    padding: 0px;
+    font-size: 16px;
+  }
 }

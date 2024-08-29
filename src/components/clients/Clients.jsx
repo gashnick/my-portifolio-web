@@ -3,9 +3,8 @@ import { MdStarRate } from "react-icons/md";
 import { RiDoubleQuotesR } from "react-icons/ri";
 import { FaPlayCircle } from "react-icons/fa";
 import { CiStar } from "react-icons/ci";
-import image from "../assets/image.jpg";
-import "../style.css";
-
+import image from "../../assets/image.jpg";
+import "./clients.css";
 export default function Clients() {
   return (
     <section className="bg-pink-50 font">

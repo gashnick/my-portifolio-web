@@ -1,11 +1,11 @@
 import React from "react";
-import imagelaptop from "../assets/imagelaptop.jpg";
-import image2 from "../assets/image2.jpg";
-import image3 from "../assets/image3.jpg";
-import image4 from "../assets/image4.jpg";
-import image5 from "../assets/image5.jpg";
-import image6 from "../assets/image6.jpg";
-import "../style.css";
+import imagelaptop from "../../assets/imagelaptop.jpg";
+import image2 from "../../assets/image2.jpg";
+import image3 from "../../assets/image3.jpg";
+import image4 from "../../assets/image4.jpg";
+import image5 from "../../assets/image5.jpg";
+import image6 from "../../assets/image6.jpg";
+import "./portifolio.css";
 
 export default function Portifolio() {
   return (

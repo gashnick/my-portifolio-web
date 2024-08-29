@@ -3,8 +3,7 @@ import { CiDesktop } from "react-icons/ci";
 import { FaGift } from "react-icons/fa6";
 import { IoPeopleOutline } from "react-icons/io5";
 import { GiTrophyCup } from "react-icons/gi";
-import "../style.css";
-
+import "./stats.css";
 export default function Stats() {
   return (
     <section className="bg-red-400 font">

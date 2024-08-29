@@ -1,14 +1,14 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import React from "react";
-import Header from "./components/Header";
+import Header from "./components/header/Header";
 import Home from "./pages/Home";
-import Services from "./components/Services";
-import About from "./components/About";
-import Portifolio from "./components/Portifolio";
-import Clients from "./components/Clients";
+import Services from "./components/Services/Services";
+import Portifolio from "./components/portifolio/Portifolio";
+import Clients from "./components/clients/Clients";
 import "./style.css";
-import Stats from "./components/Stats";
+import Stats from "./components/stats/Stats";
 import Qta from "./components/QTA/Qta";
+import About from "./components/about/About";
 
 export default function App() {
   return (

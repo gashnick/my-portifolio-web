@@ -2,8 +2,7 @@ import React from "react";
 import { CgWebsite } from "react-icons/cg";
 import { FaCheckCircle } from "react-icons/fa";
 import { RxRocket } from "react-icons/rx";
-import "../style.css";
-
+import "./services.css";
 export default function Services() {
   return (
     <section className="font">

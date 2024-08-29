@@ -1,7 +1,7 @@
 import { FaFacebook, FaTwitter, FaLinkedin } from "react-icons/fa";
-import format from "../assets/format.png";
+import format from "../../assets/format.png";
 import React from "react";
-import "../style.css";
+import "./header.css";
 
 export default function Header() {
   return (

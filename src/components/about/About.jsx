@@ -1,21 +1,20 @@
 import React from "react";
 import { CircularProgressbar, buildStyles } from "react-circular-progressbar";
 import "react-circular-progressbar/dist/styles.css";
-import format from "../assets/format.png";
-import "../style.css";
-
+import format from "../../assets/format.png";
+import "./about.css";
 export default function About() {
   const percentage = 65;
   const percentage1 = 75;
   const percentage2 = 85;
 
   return (
-    <section className="bg-orange-50 mx-auto my-7 font relative">
-      <div className="flex flex-col justify-center items-center gap-4 m-4 sm:flex-row">
-        <div className="about-image sm:py-2">
-          <img src={format} className="object-cover w-full h-full" />
+    <section className="bg-orange-50">
+      <div className="about-content">
+        <div className="about-image">
+          <img src={format} className="" />
         </div>
-        <div className="gap-7 m-4">
+        <div className="about-contents">
           <div className="gap-4 m-4">
             <h2 className="items-center text-red-500 uppercase"> About me</h2>
             <h3 className="text-3xl capitalize mb-8">
