@@ -8,7 +8,7 @@ import "../style.css";
 
 export default function Clients() {
   return (
-    <section className="bg-pink-50">
+    <section className="bg-pink-50 font">
       <div className="flex flex-col items-center justify-center  md:flex-row">
         <div className="p-6 mb-3">
           <div className="mb-3">
@@ -52,7 +52,7 @@ export default function Clients() {
               <div className="profile">
                 <img src={image} alt="profile" className="profile-image img" />
               </div>
-              <div className="flex gap-10">
+              <div className="flex gap-10 justify-between">
                 <div className="desc">
                   <span>Person name</span>
                   <span>desctription</span>

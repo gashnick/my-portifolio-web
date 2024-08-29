@@ -1,7 +1,8 @@
 import React from "react";
 import { CircularProgressbar, buildStyles } from "react-circular-progressbar";
 import "react-circular-progressbar/dist/styles.css";
-import image3 from "../assets/image3.jpg";
+import format from "../assets/format.png";
+import "../style.css";
 
 export default function About() {
   const percentage = 65;
@@ -9,10 +10,10 @@ export default function About() {
   const percentage2 = 85;
 
   return (
-    <section className="bg-orange-50 mx-auto my-7">
-      <div className="flex justify-center items-center gap-4 m-4">
-        <div className="h-64 overflow-hidden rounded-lg sm:h-80 lg:w-64 lg:h-full">
-          <img src={image3} className="h-full object-cover w-full" />
+    <section className="bg-orange-50 mx-auto my-7 font relative">
+      <div className="flex flex-col justify-center items-center gap-4 m-4 sm:flex-row">
+        <div className="about-image sm:py-2">
+          <img src={format} className="object-cover w-full h-full" />
         </div>
         <div className="gap-7 m-4">
           <div className="gap-4 m-4">

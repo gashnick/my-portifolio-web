@@ -5,10 +5,11 @@ import image3 from "../assets/image3.jpg";
 import image4 from "../assets/image4.jpg";
 import image5 from "../assets/image5.jpg";
 import image6 from "../assets/image6.jpg";
+import "../style.css";
 
 export default function Portifolio() {
   return (
-    <section className="justify-center text-center m-auto">
+    <section className="justify-center text-center m-auto font">
       <div className="container mx-auto max-w-6xl p-4">
         <h2 className="uppercase text-red-500 text-center">Portifolio works</h2>
         <h3 className="text-3xl text-center mb-3">Recent case studies</h3>

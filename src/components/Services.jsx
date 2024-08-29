@@ -2,11 +2,12 @@ import React from "react";
 import { CgWebsite } from "react-icons/cg";
 import { FaCheckCircle } from "react-icons/fa";
 import { RxRocket } from "react-icons/rx";
+import "../style.css";
 
 export default function Services() {
   return (
-    <section>
-      <div className="flex  justify-center gap-3 items-center mx-4 my-4">
+    <section className="font">
+      <div className="flex flex-col justify-center gap-3 items-center mx-4 my-4 sm:flex-row">
         <div className="bg-gray-200 mt-6 p-3">
           <CgWebsite className="text-purple-400 text-center text-5xl p-2" />
           <h3 className="font-bold capitalize p-2">

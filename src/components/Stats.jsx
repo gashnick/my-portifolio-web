@@ -3,11 +3,12 @@ import { CiDesktop } from "react-icons/ci";
 import { FaGift } from "react-icons/fa6";
 import { IoPeopleOutline } from "react-icons/io5";
 import { GiTrophyCup } from "react-icons/gi";
+import "../style.css";
 
 export default function Stats() {
   return (
-    <section className="bg-red-400">
-      <div className="flex items-center justify-center p-6 m-5 gap-5">
+    <section className="bg-red-400 font">
+      <div className="flex items-center justify-center p-6 m-5 gap-5 flex-col sm:flex-row">
         <div className="flex flex-col items-center mx-4 my-6">
           <div className="w-10 h-10 bg-gray-50 flex items-center justify-center">
             <CiDesktop />
