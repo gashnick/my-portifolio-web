@@ -9,7 +9,7 @@ import "../style.css";
 export default function Clients() {
   return (
     <section className="bg-pink-50">
-      <div className="flex flex-col items-center justify-center m-6 md:flex-row">
+      <div className="flex flex-col items-center justify-center  md:flex-row">
         <div className="p-6 mb-3">
           <div className="mb-3">
             <FaPlayCircle className="circle" />

@@ -7,6 +7,7 @@ import About from "./components/About";
 import Portifolio from "./components/Portifolio";
 import Clients from "./components/Clients";
 import "./style.css";
+import Stats from "./components/Stats";
 
 export default function App() {
   return (
@@ -16,6 +17,7 @@ export default function App() {
       <About />
       <Portifolio />
       <Clients />
+      <Stats />
       <Routes>
         <Route path="/" element={<Home />} />
       </Routes>
