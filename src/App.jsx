@@ -9,6 +9,7 @@ import "./style.css";
 import Stats from "./components/stats/Stats";
 import Qta from "./components/QTA/Qta";
 import About from "./components/about/About";
+import Contact from "./components/contact/Contact";
 
 export default function App() {
   return (
@@ -20,6 +21,7 @@ export default function App() {
       <Clients />
       <Stats />
       <Qta />
+      <Contact />
       <Routes>
         <Route path="/" element={<Home />} />
       </Routes>

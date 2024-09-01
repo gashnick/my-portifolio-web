@@ -16,8 +16,8 @@ export default function Qta() {
           </div>
           <div className="qta-content">
             <h2 className="text-red-500 uppercase">Common Questions</h2>
-            <h3 className="text-3xl capitalize">General Questions</h3>
-            <h2>
+            <h3 className="text-3xl capitalize mb-6">General Questions</h3>
+            <h2 className="mb-5 font-semibold">
               How To Care Windows & Doors?
               <span
                 style={{ cursor: "pointer", marginLeft: "10px" }}
@@ -35,8 +35,8 @@ export default function Qta() {
                 </p>
               </div>
             )}
-            <h2>
-              How To Care Windows & Doors?
+            <h2 className="mb-5 font-semibold flex items-center">
+              Can You Guarante In Conversation?
               <span
                 style={{ cursor: "pointer", marginLeft: "10px" }}
                 onClick={handleTogle}
@@ -53,8 +53,8 @@ export default function Qta() {
                 </p>
               </div>
             )}
-            <h2>
-              How To Care Windows & Doors?
+            <h2 className="mb-5 font-semibold flex items-center">
+              Where Can I See Some O f You Work?
               <span
                 style={{ cursor: "pointer", marginLeft: "10px" }}
                 onClick={handleTogle}
@@ -71,8 +71,8 @@ export default function Qta() {
                 </p>
               </div>
             )}
-            <h2>
-              How To Care Windows & Doors?
+            <h2 className="font-semibold">
+              What If I Don't Like Your Design?
               <span
                 style={{ cursor: "pointer", marginLeft: "10px" }}
                 onClick={handleTogle}

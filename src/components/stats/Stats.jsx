@@ -9,15 +9,15 @@ export default function Stats() {
     <section className="bg-red-400 font">
       <div className="flex items-center justify-center p-6 m-5 gap-5 flex-col sm:flex-row">
         <div className="flex flex-col items-center mx-4 my-6">
-          <div className="w-10 h-10 bg-gray-50 flex items-center justify-center">
+          <div className="w-10 h-10 bg-green-50/50 flex items-center justify-center text-white">
             <CiDesktop />
           </div>
           <p className="mt-2 text-center text-white">
-            234+ <br /> Company Forums
+            234+ <br /> Completed Projects
           </p>
         </div>
         <div className="flex flex-col items-center mx-4">
-          <div className="w-10 h-10 bg-gray-50 flex items-center justify-center">
+          <div className="w-10 h-10 bg-gray-50/50 text-white flex items-center justify-center">
             <FaGift />
           </div>
           <p className="mt-2 text-center text-white">
@@ -25,7 +25,7 @@ export default function Stats() {
           </p>
         </div>
         <div className="flex flex-col items-center mx-4">
-          <div className="w-10 h-10 bg-gray-50 flex items-center justify-center">
+          <div className="w-10 h-10 bg-gray-50/50 text-white flex items-center justify-center">
             <IoPeopleOutline />
           </div>
           <p className="mt-2 text-center text-white">
@@ -33,11 +33,11 @@ export default function Stats() {
           </p>
         </div>
         <div className="flex flex-col items-center mx-4">
-          <div className="w-10 h-10 bg-gray-50 flex items-center justify-center">
+          <div className="w-10 h-10 bg-white/50 text-white flex items-center justify-center">
             <GiTrophyCup />
           </div>
           <p className="mt-2 text-center text-white">
-            23+ <br /> Winning Aword
+            23+ <br /> Winning Award
           </p>
         </div>
       </div>
