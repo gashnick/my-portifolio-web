@@ -10,6 +10,7 @@ import Stats from "./components/stats/Stats";
 import Qta from "./components/QTA/Qta";
 import About from "./components/about/About";
 import Contact from "./components/contact/Contact";
+import Blog from "./components/blog/Blog";
 
 export default function App() {
   return (
@@ -22,6 +23,7 @@ export default function App() {
       <Stats />
       <Qta />
       <Contact />
+      <Blog />
       <Routes>
         <Route path="/" element={<Home />} />
       </Routes>
