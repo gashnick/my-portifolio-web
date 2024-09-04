@@ -8,3 +8,68 @@ body {
     "Lucida Sans", Arial, sans-serif;
   line-height: 24px;
 }
+ul {
+  list-style: none;
+}
+.portifolio-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+  margin: 40px 20px 0 20px;
+}
+.heading {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+}
+.heading h2 {
+  font-weight: bold;
+  color: red;
+  text-transform: uppercase;
+  padding-bottom: 10px;
+}
+.heading h3 {
+  font-size: 30px;
+  line-height: 36px;
+  padding-bottom: 10px;
+}
+.heading ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding-bottom: 20px;
+}
+.heading li:hover {
+  text-decoration: underline;
+  color: red;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+.portifolio-container .portifolio-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.portifolio-container .portifolio-box .portifolio-dream {
+  display: flex;
+  flex-direction: column;
+  width: 32.5%;
+}
+.portifolio-container .portifolio-box .portifolio-dream img {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+}
+@media only screen and (max-width: 768px) {
+  .portifolio-container .portifolio-box {
+    flex-direction: column;
+  }
+  .portifolio-container .portifolio-box .portifolio-dream {
+    width: 100%;
+  }
+}

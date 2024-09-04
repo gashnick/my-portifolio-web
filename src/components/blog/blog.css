@@ -71,6 +71,7 @@ ul {
 .blog-text .blog-title {
   font-size: 1.1rem;
   font-weight: 500;
+  padding-bottom: 10px;
 }
 .blog-text .blog-title:hover {
   color: red;
@@ -83,10 +84,11 @@ ul {
   width: 50%;
   height: 40px;
   text-align: center;
-  padding: 0px 20px;
+  padding: 5px 0;
 }
-.blog-text .blog-button:hove {
-  color: red;
+.blog-text .blog-button:hover {
+  color: white;
+  background-color: red;
   transition: all ease 0.3s;
 }
 .content {

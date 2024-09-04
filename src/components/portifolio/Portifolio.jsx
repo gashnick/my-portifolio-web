@@ -3,78 +3,36 @@ import imagelaptop from "../../assets/imagelaptop.jpg";
 import image2 from "../../assets/image2.jpg";
 import image3 from "../../assets/image3.jpg";
 import image4 from "../../assets/image4.jpg";
-import image5 from "../../assets/image5.jpg";
+import imagedashbord from "../../assets/imagedashboard.webp";
 import image6 from "../../assets/image6.jpg";
 import "./portifolio.css";
 
 export default function Portifolio() {
   return (
-    <section className="justify-center text-center m-auto font">
-      <div className="container mx-auto max-w-6xl p-4">
-        <h2 className="uppercase text-red-500 text-center">Portifolio works</h2>
-        <h3 className="text-3xl text-center mb-3">Recent case studies</h3>
-        <ul className="flex justify-center text-center p-2 gap-4">
-          <li className="text-sm font-bold hover:text-red-500 hover:underline hover:cursor-pointer">
-            All
-          </li>
-          <li className="text-sm font-bold text-red-500 underline cursor-pointer">
-            Website
-          </li>
-          <li className="text-sm font-bold hover:text-red-500 hover:underline hover:cursor-pointer">
-            Mobile Apps
-          </li>
-          <li className="text-sm font-bold hover:text-red-500 hover:underline hover:cursor-pointer">
-            Software
-          </li>
+    <section>
+      <div className="heading">
+        <h2>Portifolio works</h2>
+        <h3>Recent Case Studies</h3>
+        <ul>
+          <li>All</li>
+          <li>Website</li>
+          <li>Mobile Apps</li>
+          <li>Software</li>
         </ul>
-        <div className="grid grid-cols-2 gap-6 p-4 mt-2 sm:grid-cols-3">
-          <div className="relative aspect-w-1 aspect-h-1">
-            <img
-              src={image2}
-              className="rounded-lg object-cover w-full h-full"
-            />
-            <div className="absolute inset-0 bg-gradient-to-t from-red-500 to-transparent"></div>
-            <div
-              className="absolute bottom-0 left-0 flex flex-col 
-          items-start p-4 sm:text-3xl"
-            >
-              <span className="bg-white text-red-500 font-bold text-xs sm:text-sm px-1 py-2 rounded mt-2">
-                Development
-              </span>
-              <span className="bg-white font-bold text-xs sm:text-sm px-3 py-2 rounded mt-2">
-                Officical Video Editor
-              </span>
-            </div>
+      </div>
+      <div className="portifolio-container">
+        <div className="portifolio-box">
+          <div className="portifolio-dream">
+            <img src={image3} alt="image2" />
+            <img src={image4} alt="image2" />
           </div>
-          <div className="aspect-w-1 aspect-h-1">
-            <img
-              src={image5}
-              className="rounded-lg object-cover w-full h-full"
-            />
+          <div className="portifolio-dream">
+            <img src={image6} alt="image2" />
+            <img src={imagedashbord} alt="image2" />
           </div>
-          <div className="aspect-w-1 aspect-h-1">
-            <img
-              src={image3}
-              className="rounded-lg object-cover w-full h-full"
-            />
-          </div>
-          <div className="aspect-w-1 aspect-h-1">
-            <img
-              src={image4}
-              className="rounded-lg object-cover w-full h-full"
-            />
-          </div>
-          <div className="aspect-w-1 aspect-h-1">
-            <img
-              src={image6}
-              className="rounded-lg object-cover w-full h-full"
-            />
-          </div>
-          <div className="aspect-w-1 aspect-h-1">
-            <img
-              src={imagelaptop}
-              className="rounded-lg object-cover w-full h-full"
-            />
+          <div className="portifolio-dream">
+            <img src={image3} alt="image2" />
+            <img src={imagelaptop} alt="image2" />
           </div>
         </div>
       </div>

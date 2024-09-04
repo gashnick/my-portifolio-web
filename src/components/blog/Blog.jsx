@@ -1,7 +1,5 @@
 import React from "react";
-import blog1 from "../../assets/blog1.jpg";
-import blog2 from "../../assets/blog2.jpg";
-import blog3 from "../../assets/blog3.jpg";
+import blog3 from "../../assets/2looking.webp";
 import "./blog.css";
 
 export default function Blog() {
@@ -14,7 +12,7 @@ export default function Blog() {
       <div className="blog-container">
         <div className="blog-box">
           <div className="blog-img">
-            <img src={blog1} alt="blog" />
+            <img src={blog3} alt="blog" />
           </div>
           <div className="blog-text">
             <span>16 March 2024</span>
@@ -28,7 +26,7 @@ export default function Blog() {
         </div>
         <div className="blog-box">
           <div className="blog-img">
-            <img src={blog2} alt="blog" />
+            <img src={blog3} alt="blog" />
           </div>
           <div className="blog-text">
             <span>16 March 2024</span>

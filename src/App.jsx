@@ -11,6 +11,7 @@ import Qta from "./components/QTA/Qta";
 import About from "./components/about/About";
 import Contact from "./components/contact/Contact";
 import Blog from "./components/blog/Blog";
+import Footer from "./components/footer/Footer";
 
 export default function App() {
   return (
@@ -24,6 +25,7 @@ export default function App() {
       <Qta />
       <Contact />
       <Blog />
+      <Footer />
       <Routes>
         <Route path="/" element={<Home />} />
       </Routes>

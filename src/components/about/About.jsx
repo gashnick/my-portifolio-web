@@ -9,7 +9,7 @@ export default function About() {
   const percentage2 = 85;
 
   return (
-    <section className="bg-orange-50">
+    <section className="bg-pink-50">
       <div className="content">
         <div className="about-content">
           <div className="about-image">

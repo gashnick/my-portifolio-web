@@ -6,43 +6,46 @@ import "./services.css";
 export default function Services() {
   return (
     <section className="font">
-      <div className="flex flex-col justify-center gap-3 items-center mx-4 my-4 sm:flex-row">
-        <div className="bg-gray-200 mt-6 p-3">
-          <CgWebsite className="text-purple-400 text-center text-5xl p-2" />
-          <h3 className="font-bold capitalize p-2">
-            Website <br />
-            development
-          </h3>
-          <ul>
-            <li className="flex items-center p-2 gap-1">
-              <FaCheckCircle className="text-orange-400" /> One Page Design
-            </li>
-            <li className="flex items-center p-2 gap-1">
-              <FaCheckCircle className="text-orange-400" /> Website UI/UX
-            </li>
-            <li className="flex items-center p-2 gap-1">
-              <FaCheckCircle className="text-orange-400" /> Many Page Design
-            </li>
-          </ul>
+      <div className="flex flex-col justify-center gap-10 items-center  p-10 sm:flex-row">
+        <div className="flex justify-center text-center gap-2.5 p-6">
+          <div className="bg-gray-200 mt-6 p-3">
+            <CgWebsite className="text-purple-400 text-center text-5xl p-2" />
+            <h3 className="font-bold capitalize p-2">
+              Website <br />
+              development
+            </h3>
+            <ul>
+              <li className="flex items-center p-2 gap-1">
+                <FaCheckCircle className="text-orange-400" /> One Page Design
+              </li>
+              <li className="flex items-center p-2 gap-1">
+                <FaCheckCircle className="text-orange-400" /> Website UI/UX
+              </li>
+              <li className="flex items-center p-2 gap-1">
+                <FaCheckCircle className="text-orange-400" /> Many Page Design
+              </li>
+            </ul>
+          </div>
+          <div className="bg-gray-200 mt-6 p-3">
+            <RxRocket className="text-purple-400 text-center text-5xl p-2" />
+            <h3 className="font-bold capitalize p-2">
+              Website <br />
+              development
+            </h3>
+            <ul>
+              <li className="flex items-center p-2 gap-1">
+                <FaCheckCircle className="text-orange-400" /> One Page Design
+              </li>
+              <li className="flex items-center p-2 gap-1">
+                <FaCheckCircle className="text-orange-400" /> Website UI/UX
+              </li>
+              <li className="flex items-center p-2 gap-1">
+                <FaCheckCircle className="text-orange-400" /> Many Page Design
+              </li>
+            </ul>
+          </div>
         </div>
-        <div className="bg-gray-200 mt-6 p-3">
-          <RxRocket className="text-purple-400 text-center text-5xl p-2" />
-          <h3 className="font-bold capitalize p-2">
-            Website <br />
-            development
-          </h3>
-          <ul>
-            <li className="flex items-center p-2 gap-1">
-              <FaCheckCircle className="text-orange-400" /> One Page Design
-            </li>
-            <li className="flex items-center p-2 gap-1">
-              <FaCheckCircle className="text-orange-400" /> Website UI/UX
-            </li>
-            <li className="flex items-center p-2 gap-1">
-              <FaCheckCircle className="text-orange-400" /> Many Page Design
-            </li>
-          </ul>
-        </div>
+
         <div className="p-6">
           <h2 className="text-red-600 mb-2">WHAT WE OFFER</h2>
           <h3 className="text-3xl">
