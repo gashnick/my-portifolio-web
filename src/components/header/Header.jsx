@@ -57,7 +57,7 @@ export default function Header() {
               <img
                 alt=""
                 src={format}
-                className="absolute inset-0 h-full w-full object-cover"
+                className="absolute inset-0 h-full w-full/2 object-cover"
               />
             </div>
 
@@ -67,16 +67,15 @@ export default function Header() {
                 <FaTwitter className="text-2xl text-red-500 bg-white rounded-full p-1 cursor-pointer" />
                 <FaLinkedin className="text-2xl text-red-500 cursor-pointer" />
               </div>
-              <div>
+              <div className="">
                 <h3 className="text-2xl font-semibold sm:text-3xl capitalize">
                   Hello, i'm <br /> Nicolas Gashumba I Am <br /> A Web Developer
                 </h3>
 
                 <p className="mt-4 text-gray-600">
-                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut
-                  qui hic atque tenetur quis eius quos ea neque sunt,
-                  accusantium soluta minus veniam tempora deserunt? Molestiae
-                  eius quidem quam repellat.
+                  It is a long established fact that a reader will be distracted{" "}
+                  <br />
+                  by the readable content of a page layout.
                 </p>
 
                 <a

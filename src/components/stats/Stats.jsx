@@ -13,7 +13,8 @@ export default function Stats() {
             <CiDesktop />
           </div>
           <p className="mt-2 text-center text-white">
-            234+ <br /> Completed Projects
+            <span className="text-3xl font-bold">234+</span> <br /> Completed
+            Projects
           </p>
         </div>
         <div className="flex flex-col items-center mx-4">
@@ -21,7 +22,8 @@ export default function Stats() {
             <FaGift />
           </div>
           <p className="mt-2 text-center text-white">
-            40+ <br /> Happy Customers
+            <span className="text-3xl font-bold">40+</span> <br /> Happy
+            Customers
           </p>
         </div>
         <div className="flex flex-col items-center mx-4">
@@ -29,7 +31,8 @@ export default function Stats() {
             <IoPeopleOutline />
           </div>
           <p className="mt-2 text-center text-white">
-            4.9/5 <br /> Average Ratings
+            <span className="text-3xl font-bold">4.9/5</span> <br /> Average
+            Ratings
           </p>
         </div>
         <div className="flex flex-col items-center mx-4">
@@ -37,7 +40,7 @@ export default function Stats() {
             <GiTrophyCup />
           </div>
           <p className="mt-2 text-center text-white">
-            23+ <br /> Winning Award
+            <span className="text-3xl font-bold">23+</span> <br /> Winning Award
           </p>
         </div>
       </div>

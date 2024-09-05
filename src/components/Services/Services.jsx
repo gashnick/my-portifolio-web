@@ -5,59 +5,67 @@ import { RxRocket } from "react-icons/rx";
 import "./services.css";
 export default function Services() {
   return (
-    <section className="font">
-      <div className="flex flex-col justify-center gap-10 items-center  p-10 sm:flex-row">
-        <div className="flex justify-center text-center gap-2.5 p-6">
-          <div className="bg-gray-200 mt-6 p-3">
-            <CgWebsite className="text-purple-400 text-center text-5xl p-2" />
-            <h3 className="font-bold capitalize p-2">
-              Website <br />
-              development
+    <section>
+      <div className="service-container">
+        <div className="service-box-container">
+          <div className="service-box">
+            <CgWebsite className="text-purple-500 text-3xl" />
+            <h3>
+              Website <br /> Development
             </h3>
             <ul>
-              <li className="flex items-center p-2 gap-1">
-                <FaCheckCircle className="text-orange-400" /> One Page Design
+              <li>
+                <FaCheckCircle className="text-orange-500 pr-2 text-2xl" />
+                One Page Design
               </li>
-              <li className="flex items-center p-2 gap-1">
-                <FaCheckCircle className="text-orange-400" /> Website UI/UX
+              <li>
+                {" "}
+                <FaCheckCircle className="text-orange-500 pr-2 text-2xl" />
+                Website UI/UX
               </li>
-              <li className="flex items-center p-2 gap-1">
-                <FaCheckCircle className="text-orange-400" /> Many Page Design
+              <li>
+                {" "}
+                <FaCheckCircle className="text-orange-500 pr-2 text-2xl" />
+                Multi Page Design
               </li>
             </ul>
           </div>
-          <div className="bg-gray-200 mt-6 p-3">
-            <RxRocket className="text-purple-400 text-center text-5xl p-2" />
-            <h3 className="font-bold capitalize p-2">
-              Website <br />
-              development
+          <div className="service-box">
+            <RxRocket className="text-purple-500 text-3xl" />
+            <h3>
+              Website <br /> Development
             </h3>
             <ul>
-              <li className="flex items-center p-2 gap-1">
-                <FaCheckCircle className="text-orange-400" /> One Page Design
+              <li>
+                <FaCheckCircle className="text-orange-500 pr-2 text-2xl" />
+                One Page Design
               </li>
-              <li className="flex items-center p-2 gap-1">
-                <FaCheckCircle className="text-orange-400" /> Website UI/UX
+              <li>
+                {" "}
+                <FaCheckCircle className="text-orange-500 pr-2 text-2xl" />
+                Website UI/UX
               </li>
-              <li className="flex items-center p-2 gap-1">
-                <FaCheckCircle className="text-orange-400" /> Many Page Design
+              <li>
+                {" "}
+                <FaCheckCircle className="text-orange-500 pr-2 text-2xl" />
+                Multi Page Design
               </li>
             </ul>
           </div>
         </div>
 
-        <div className="p-6">
-          <h2 className="text-red-600 mb-2">WHAT WE OFFER</h2>
-          <h3 className="text-3xl">
+        <div className="service-texts">
+          <h2 className="text-red-500 pb-2">WHAT WE OFFER</h2>
+          <h3 className="text-3xl pb-2 ">
             Which Services I Will <br /> Provide For You
           </h3>
-          <p className="mt-4 text-gray-600 mb-4">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. <br /> Aut
-            qui hic atque tenetur.
+          <p className="text-gray-500 pb-3">
+            Integer faucibus auctor tortor aget aliquam. Maecenas ut <br /> enim
+            at velitPraesent et quam laoreet.{" "}
           </p>
           <a
             href="#"
-            className="mt-8 inline-block rounded bg-red-500 px-12 py-3 text-sm font-medium text-white transition hover:bg-indigo-700 focus:outline-none focus:ring focus:ring-yellow-400"
+            className="mt-8 inline-block rounded bg-red-500 px-12 py-3 text-sm font-medium text-white transition hover:bg-orange-500 focus:outline-none focus:ring focus:ring-yellow-400"
           >
             Explore All Services
           </a>

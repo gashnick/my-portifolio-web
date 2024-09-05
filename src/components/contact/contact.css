@@ -10,7 +10,6 @@ body {
 }
 .contact-container {
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
   padding: 20px;
@@ -19,18 +18,17 @@ body {
 .contact-content {
   display: flex;
   justify-content: space-between;
-  flex-direction: row;
   align-items: center;
-  flex-wrap: wrap;
+  width: 100%;
+  max-width: 1200px;
 }
 
 .contact-contents {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
   justify-content: center;
-  margin: 20px 0;
-  gap: 10px;
+  margin-right: 40px;
 }
 .contact-contents h3 {
   margin-top: 10px;
@@ -41,9 +39,9 @@ body {
 .form-contents {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
   justify-content: center;
-  margin: 20px 0;
+  width: 50%;
 }
 form {
   gap: 10px;
