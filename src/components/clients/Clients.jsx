@@ -7,13 +7,13 @@ import image from "../../assets/image.jpg";
 import "./clients.css";
 export default function Clients() {
   return (
-    <section className="bg-pink-50 font">
-      <div className="flex flex-col items-center justify-center  md:flex-row">
+    <section className="bg-pink-50">
+      <div className="flex flex-col items-start justify-center  md:flex-row pt-6 pb-5">
         <div className="p-6 mb-3">
-          <div className="mb-3">
+          <div className="mb-3 pb-5">
             <FaPlayCircle className="circle" />
           </div>
-          <h3 className="text-3xl mb-3">
+          <h3 className="text-3xl mb-3 pb-5">
             I am Fully Commited <br /> To The Needs My <br /> Customers
           </h3>
           <p className="text-gray-600">
@@ -56,7 +56,7 @@ export default function Clients() {
                   <span>Person name</span>
                   <span>desctription</span>
                 </div>
-                <div className="">
+                <div className=" ml-6">
                   <RiDoubleQuotesR className="quote" />
                 </div>
               </div>
