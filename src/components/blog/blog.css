@@ -46,9 +46,14 @@ ul {
 }
 .blog-box {
   width: 290px;
-  background-color: aliceblue;
+  background-color: rgb(244, 246, 248);
   border: 1px solid ghostwhite;
   margin: 20px;
+  border-radius: 5px;
+  transition: box-shadow 0.3s ease;
+}
+.blog-box:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 .blog-img {
   width: 100%;

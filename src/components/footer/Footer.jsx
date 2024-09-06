@@ -14,6 +14,7 @@ export default function Footer() {
           </div>
         </div>
         <div className="footer-contact footer-box">
+          <h3 className="text-3xl font-bold">Contact info</h3>
           <div className="footer-email">
             <h3>Email</h3>
             <span>email@gmail.com</span>
@@ -29,13 +30,16 @@ export default function Footer() {
         </div>
         <div className="footer-p footer-box">
           <h3>Let's Talk</h3>
-          <span>This is span</span>
+          <span>
+            I am always open to discuss your project, <br /> improve your online
+            presence or help with <br /> your UX/UI design challenges.
+          </span>
           <a href="#" className="footer-button">
             Contact Me
           </a>
         </div>
       </div>
-      <div></div>
+      <div className=""></div>
     </footer>
   );
 }

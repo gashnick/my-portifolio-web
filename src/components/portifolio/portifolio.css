@@ -17,14 +17,14 @@ ul {
   justify-content: center;
   align-items: center;
   padding: 40px;
-  margin: 40px 20px 0 20px;
+  margin: 20px 40px;
 }
 .heading {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding-top: 20px;
+  padding-top: 40px;
 }
 .heading h2 {
   font-weight: bold;
@@ -53,7 +53,7 @@ ul {
 .portifolio-container .portifolio-box {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  gap: 5px;
 }
 .portifolio-container .portifolio-box .portifolio-dream {
   display: flex;
@@ -62,8 +62,8 @@ ul {
 }
 .portifolio-container .portifolio-box .portifolio-dream img {
   width: 100%;
-  padding: 10px;
-  border-radius: 5px;
+  padding: 5px;
+  border-radius: 10px;
 }
 @media only screen and (max-width: 768px) {
   .portifolio-container .portifolio-box {

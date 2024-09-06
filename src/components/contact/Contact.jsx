@@ -29,7 +29,9 @@ export default function Contact() {
               />
             </div>
           </div>
-          <div className></div>
+          <div>
+            <textarea className=""></textarea>
+          </div>
           <div>
             <a
               href="#"
