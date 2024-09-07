@@ -8,7 +8,7 @@ import "./clients.css";
 export default function Clients() {
   return (
     <section className="bg-pink-50">
-      <div className="flex flex-col items-start justify-center  md:flex-row pt-6 pb-5">
+      <div className="flex flex-col items-start justify-center  md:flex-row p-5">
         <div className="p-6 mb-3">
           <div className="mb-3 pb-5">
             <FaPlayCircle className="circle" />

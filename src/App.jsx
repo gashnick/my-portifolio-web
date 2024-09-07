@@ -5,7 +5,7 @@ import Home from "./pages/Home";
 import Services from "./components/Services/Services";
 import Portifolio from "./components/portifolio/Portifolio";
 import Clients from "./components/clients/Clients";
-import "./style.css";
+import "../style.css";
 import Stats from "./components/stats/Stats";
 import Qta from "./components/QTA/Qta";
 import About from "./components/about/About";

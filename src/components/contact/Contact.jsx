@@ -16,31 +16,23 @@ export default function Contact() {
             enim at velitPraesent et quam laoreet.
           </p>
         </div>
-        <form>
-          <div className="inputs">
-            <div>
-              <input type="text" placeholder="Your Name" className="input" />
-            </div>
-            <div>
-              <input
-                type="email"
-                placeholder="Your Email Address"
-                className="input"
-              />
-            </div>
+        <div className="form">
+          <div className="inputs-box">
+            <input
+              type="text"
+              className="inputs"
+              placeholder="Your name"
+              required
+            />
+            <input
+              type="email"
+              className="inputs"
+              placeholder="Your email"
+              required
+            />
           </div>
-          <div>
-            <textarea className=""></textarea>
-          </div>
-          <div>
-            <a
-              href="#"
-              className="mt-8 inline-block rounded bg-red-500 px-12 py-3 text-sm font-medium text-white transition hover:bg-indigo-700 focus:outline-none focus:ring focus:ring-yellow-400"
-            >
-              Send Me Message
-            </a>
-          </div>
-        </form>
+          <textarea placeholder="Your message"></textarea>
+        </div>
       </div>
     </section>
   );

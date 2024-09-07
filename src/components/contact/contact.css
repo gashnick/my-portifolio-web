@@ -21,6 +21,7 @@ body {
   align-items: flex-start;
   justify-content: center;
   padding: 20px 0;
+  margin-right: 20px;
 }
 .contact-container .contact-dexcription h2 {
   margin-bottom: 10px;
@@ -28,7 +29,7 @@ body {
 .contact-container .contact-dexcription h3 {
   margin-bottom: 10px;
 }
-form {
+.form {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -36,12 +37,14 @@ form {
   gap: 10px;
   padding: 20px 0;
 }
-.inputs {
+.inputs-box {
   display: flex;
   gap: 10px;
-  margin-bottom: 20px;
 }
-.inputs input {
+.inputs-box input {
+  padding: 8px;
+  margin-bottom: 20px;
   width: 100%;
-  outline: none;
+  height: auto;
+  border-radius: 5px;
 }
