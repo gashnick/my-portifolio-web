@@ -34,12 +34,25 @@ export default function Footer() {
             I am always open to discuss your project, <br /> improve your online
             presence or help with <br /> your UX/UI design challenges.
           </span>
-          <a href="#" className="footer-button">
-            Contact Me
+          <a
+            href="#"
+            className="mt-8 inline-block rounded bg-red-500 px-4 py-3 text-sm font-medium text-white transition hover:bg-indigo-700 focus:outline-none focus:ring focus:ring-yellow-400"
+          >
+            Contact me
           </a>
         </div>
       </div>
-      <div className=""></div>
+      <div className="footer-links">
+        <div className="pages">
+          <ul>
+            <li>About</li>
+            <li>Work</li>
+            <li>Services</li>
+            <li>Contact</li>
+          </ul>
+        </div>
+        <div>&copy; All Right Reserved. Prepared by me</div>
+      </div>
     </footer>
   );
 }

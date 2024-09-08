@@ -109,7 +109,18 @@ ul {
   width: 290px;
   margin: 20px;
 }
-
+.footer-links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer-links ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-right: 20px;
+}
 @media screen and (max-width: 1250px) {
   .footer-box {
     width: 300px;
@@ -128,5 +139,10 @@ ul {
   }
   .footer {
     padding: 20px;
+  }
+  .footer-links {
+    flex-direction: column;
+    width: 100%;
+    margin: 20px 10px;
   }
 }

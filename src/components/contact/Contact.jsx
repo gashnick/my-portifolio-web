@@ -32,6 +32,12 @@ export default function Contact() {
             />
           </div>
           <textarea placeholder="Your message"></textarea>
+          <a
+            href="#"
+            className="mt-8 inline-block rounded bg-red-500 px-4 py-3 text-sm font-medium text-white transition hover:bg-indigo-700 focus:outline-none focus:ring focus:ring-yellow-400"
+          >
+            Browse Projects
+          </a>
         </div>
       </div>
     </section>
