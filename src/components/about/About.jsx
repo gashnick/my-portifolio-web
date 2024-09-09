@@ -25,16 +25,16 @@ export default function About() {
                 value={percentage1}
                 text={`${percentage1}%`}
                 styles={buildStyles({
-                  textColor: "#EF4444",
+                  textColor: "black",
                   pathColor: "#EF4444",
                   trailColor: "#FEE2E2",
                 })}
               />
             </div>
             <p className="text-gray-600">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+              Eapro tibique comprsam, sedea verer numquam molestie
               <br />
-              Aut qui hic atque tenetur
+              te omittam comprehensam.
             </p>
           </div>
           <div className="about-description-percentage">
@@ -43,16 +43,16 @@ export default function About() {
                 value={percentage}
                 text={`${percentage}%`}
                 styles={buildStyles({
-                  textColor: "#EF4444",
-                  pathColor: "#EF4444",
+                  textColor: "black",
+                  pathColor: "#ffb303",
                   trailColor: "#FEE2E2",
                 })}
               />
             </div>
             <p className="text-gray-600">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+              Eapro tibique comprsam, sedea verer numquam molestie
               <br />
-              Aut qui hic atque tenetur
+              te omittam comprehensam.
             </p>
           </div>
           <div className="about-description-percentage">
@@ -61,16 +61,16 @@ export default function About() {
                 value={percentage2}
                 text={`${percentage2}%`}
                 styles={buildStyles({
-                  textColor: "#EF4444",
-                  pathColor: "#EF4444",
+                  textColor: "black",
+                  pathColor: "#a54bcc",
                   trailColor: "#FEE2E2",
                 })}
               />
             </div>
             <p className="text-gray-600">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+              Eapro tibique comprsam, sedea verer numquam molestie
               <br />
-              Aut qui hic atque tenetur
+              te omittam comprehensam.
             </p>
           </div>
         </div>

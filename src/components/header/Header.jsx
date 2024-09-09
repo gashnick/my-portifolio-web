@@ -1,5 +1,5 @@
 import { FaFacebook, FaTwitter, FaLinkedin } from "react-icons/fa";
-import format from "../../assets/format.png";
+import format from "../../assets/profile.webp";
 import React from "react";
 import "./header.css";
 

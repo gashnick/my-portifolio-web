@@ -53,7 +53,7 @@ ul {
 .portifolio-container .portifolio-box {
   display: flex;
   flex-direction: row;
-  gap: 5px;
+  gap: 1px;
 }
 .portifolio-container .portifolio-box .portifolio-dream {
   display: flex;

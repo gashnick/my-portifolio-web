@@ -51,7 +51,9 @@ export default function Footer() {
             <li>Contact</li>
           </ul>
         </div>
-        <div>&copy; All Right Reserved. Prepared by me</div>
+        <div className="copyright">
+          &copy; All Right Reserved. Prepared by me
+        </div>
       </div>
     </footer>
   );

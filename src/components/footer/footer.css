@@ -114,12 +114,19 @@ ul {
   justify-content: space-between;
   align-items: center;
 }
+.footer-links .copyright {
+  float: right;
+  margin-left: auto;
+}
 .footer-links ul {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 10px;
   margin-right: 20px;
+}
+.footer-links .pages {
+  float: left;
 }
 @media screen and (max-width: 1250px) {
   .footer-box {
