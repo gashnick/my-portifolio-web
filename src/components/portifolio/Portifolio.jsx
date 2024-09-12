@@ -39,7 +39,14 @@ export default function Portifolio() {
             <div className="image-container">
               <img src={image4} alt="image2" />
               <div className="overlay">
-                <div className="text">This is image 4</div>
+                <div className="text">
+                  <h2 className="rounded-sm p-2 border-2 mb-1 bg-white text-red-500">
+                    Development
+                  </h2>
+                  <h3 className="rounded-sm p-2 border-2 bg-white text-black">
+                    Official video editor
+                  </h3>
+                </div>
               </div>
             </div>
           </div>
@@ -47,13 +54,27 @@ export default function Portifolio() {
             <div className="image-container">
               <img src={image6} alt="image2" />
               <div className="overlay">
-                <div className="text">This is image 6</div>
+                <div className="text">
+                  <h2 className="rounded-sm p-2 border-2 mb-1 bg-white text-red-500">
+                    Development
+                  </h2>
+                  <h3 className="rounded-sm p-2 border-2 bg-white text-black">
+                    Official video editor
+                  </h3>
+                </div>
               </div>
             </div>
             <div className="image-container">
               <img src={imagedashbord} alt="image2" />
               <div className="overlay">
-                <div className="text">This is the dashboard</div>
+                <div className="text">
+                  <h2 className="rounded-sm p-2 border-2 mb-1 bg-white text-red-500">
+                    Development
+                  </h2>
+                  <h3 className="rounded-sm p-2 border-2 bg-white text-black">
+                    Official video editor
+                  </h3>
+                </div>
               </div>
             </div>
           </div>
@@ -61,13 +82,27 @@ export default function Portifolio() {
             <div className="image-container">
               <img src={image3} alt="image2" />
               <div className="overlay">
-                <div className="text">This is image 3 again</div>
+                <div className="text">
+                  <h2 className="rounded-sm p-2 border-2 mb-1 bg-white text-red-500">
+                    Development
+                  </h2>
+                  <h3 className="rounded-sm p-2 border-2 bg-white text-black">
+                    Official video editor
+                  </h3>
+                </div>
               </div>
             </div>
             <div className="image-container">
               <img src={imagelaptop} alt="image2" />
               <div className="overlay">
-                <div className="text">This is the laptop image</div>
+                <div className="text">
+                  <h2 className="rounded-sm p-2 border-2 mb-1 bg-white text-red-500">
+                    Development
+                  </h2>
+                  <h3 className="rounded-sm p-2 border-2 bg-white text-black">
+                    Official video editor
+                  </h3>
+                </div>
               </div>
             </div>
           </div>

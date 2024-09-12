@@ -42,7 +42,7 @@ export default function Footer() {
           </a>
         </div>
       </div>
-      <div className="footer-links">
+      <div className="footer-links footer-box">
         <div className="pages">
           <ul>
             <li>About</li>
@@ -51,7 +51,7 @@ export default function Footer() {
             <li>Contact</li>
           </ul>
         </div>
-        <div className="copyright">
+        <div className="copyright float-end">
           &copy; All Right Reserved. Prepared by me
         </div>
       </div>
