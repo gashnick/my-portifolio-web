@@ -5,11 +5,22 @@ import "./qta.css";
 
 export default function Qta() {
   const [isOpen, setIsOpen] = useState([false, false, false]); // Array for tracking open/close state of multiple sections
-
+  const [showText, setShowText] = useState([false]);
   const handleToggle = (index) => {
     const updatedToggle = [...isOpen];
     updatedToggle[index] = !updatedToggle[index]; // Toggle the specific section
     setIsOpen(updatedToggle);
+    if (updatedToggle[index]) {
+      setTimeout(() => {
+        const updatedShowText = [...showText];
+        updatedShowText[index] = true;
+        setShowText(updatedShowText);
+      }, 1000);
+    } else {
+      const updatedShowText = [...showText];
+      updatedShowText[index] = false;
+      setShowText(updatedShowText);
+    }
   };
 
   return (
@@ -30,7 +41,7 @@ export default function Qta() {
               </h2>
               {isOpen[0] ? (
                 <LuMinus
-                  className="cursor-pointer"
+                  className="cursor-pointer transition-transform duration-300"
                   onClick={() => handleToggle(0)}
                 />
               ) : (
@@ -41,7 +52,7 @@ export default function Qta() {
               )}
             </div>
             {isOpen[0] && (
-              <p className="mt-2">
+              <p className="mt-2 transition-opacity duration-300 opacity-100">
                 Here is the text that appears when the <br /> icon is clicked.
                 You can describe how to <br /> care for windows and doors here.
               </p>

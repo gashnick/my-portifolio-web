@@ -113,7 +113,8 @@ ul {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 100%;
+  width: 80%;
+  margin: 20px 0;
 }
 .footer-links .copyright {
   margin-left: auto;
@@ -124,6 +125,11 @@ ul {
   align-items: center;
   gap: 10px;
   margin-right: 20px;
+}
+.footer-links ul li:hover {
+  text-decoration: underline;
+  color: red;
+  cursor: pointer;
 }
 .footer-links .pages {
   display: flex;

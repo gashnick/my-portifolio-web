@@ -8,9 +8,9 @@ export default function Footer() {
       <div className="footer-info">
         <div className="footer-img footer-box">
           <img src={image} alt="profile" />
-          <div className="img-desc">
+          <div className="img-desc flex flex-col items-start text-sm">
             <span>Robert Smirth</span>
-            <p>Web Developer</p>
+            <span className="text-red-500">Web Developer</span>
           </div>
         </div>
         <div className="footer-contact footer-box">
@@ -42,7 +42,7 @@ export default function Footer() {
           </a>
         </div>
       </div>
-      <div className="footer-links footer-box">
+      <div className="footer-links">
         <div className="pages">
           <ul>
             <li>About</li>
